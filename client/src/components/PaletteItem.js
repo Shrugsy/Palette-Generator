@@ -42,10 +42,10 @@ const PaletteItem = ({ colors, type, onCopy }) => {
     // console.log(colorItem.current)
     let el = document.querySelector(`#${type}`)
     onCopy(hexString)
-    console.log('adding class')
+    // console.log('adding class')
     el.classList.add('copied');
     setTimeout(()=>{
-      console.log('removing class')
+      // console.log('removing class')
       if (el) {
         el.classList.remove('copied')
       }

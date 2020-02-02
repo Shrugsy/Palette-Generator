@@ -97,7 +97,7 @@ export default class Palette extends Component {
   };
 
   handleCopy = text => {
-    console.log("handling copy: " + text);
+    // console.log("handling copy: " + text);
     this.setState({
       errorMessage: "",
       successMessage: "Successfully copied to clipboard: " + text,
